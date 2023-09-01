@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      {console.log("env", process.env.NODE_ENV)}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
